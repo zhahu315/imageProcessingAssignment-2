@@ -14,11 +14,6 @@ def normalize(gray):
 	return gray
 
 
-def normalize_255(f):
-	f *= 255 * normalize(f)
-	return f.astype(np.uint8)
-
-
 def dft2D(f):
 	gray = np.array(f, complex)
 	# raw = gray
@@ -39,41 +34,22 @@ def dft2D(f):
 	return gray
 
 
-def idft2D(f):
-	gray = f
-	gray = np.array(gray, complex)
-
-	for i in range(gray.shape[0]):
-		gray[i] = np.fft.ifft(gray[i])
-	print(gray.dtype)
-	print('1=', gray)
-	for j in range(gray.shape[1]):
-		gray[:, j] = np.fft.ifft(gray[:, j])
-	# gray = np.abs(gray)
-	# print(gray.dtype)
-	print('2=', gray)
-
-	return gray
-
-
 def center_fft(f):
 
 	fft_raw = dft2D(f)
-
 	abs_fft_raw = np.abs(fft_raw)
+
 	F = normalize(abs_fft_raw)
 	print('F=', F.dtype, F)
-	# draw(F)
+
 	center_F = center_shift(F)
 	print('center_F=', center_F.dtype, center_F)
-	# draw(center_F)
-	# temp = np.ones_like(center_F)
+
 	S = 1 + center_F
 	print(S.dtype, S)
 	S = normalize(np.log(S))
 	print('S=', S.dtype, S)
 
-	# cv2.imshow('1', raw)
 	cv2.imshow('F', F)
 	cv2.imshow('center_F', center_F)
 	cv2.imshow('S', S)
@@ -81,9 +57,6 @@ def center_fft(f):
 	F = F.astype(np.float32)
 	center_F = center_F.astype(np.float32)
 	S = S.astype(np.float32)
-
-	abs_fft_raw = abs_fft_raw.astype(np.float32)
-
 
 	cv2.imwrite('F.tiff', F)
 	cv2.imwrite('center_f.tiff', center_F)
@@ -115,25 +88,6 @@ def draw(f):
 	x = range(f.shape[0])
 	y = range(f.shape[1])
 	Z = f[x][y]
-	X, Y = np.meshgrid(x, y)
-	ax.plot_surface(X, Y, Z, cmap='rainbow')
-	plt.show()
-
-
-def diff(f, g):
-	f = normalize(f)
-	print('f=', f)
-	print('g=', g)
-	d = np.abs(f - g)
-	# for i in range(d.shape[0]):
-	# 	for j in range(d.shape[1]):
-	# 		if d[i][j] > 10:
-	# 			print(i, j)
-	fig = plt.figure()
-	ax = fig.add_subplot(111, projection='3d')
-	x = range(d.shape[0])
-	y = range(d.shape[1])
-	Z = d[x][y]
 	X, Y = np.meshgrid(x, y)
 	ax.plot_surface(X, Y, Z, cmap='rainbow')
 	plt.show()
