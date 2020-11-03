@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/main" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dbb87952-1c5f-4ec3-afc0-9faffe5bea80" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/remote-mappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dft2D.py" beforeDir="false" afterPath="$PROJECT_DIR$/dft2D.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.jpg" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="7776195d-d996-447b-ab42-fa6c01d25f21" />
+  <component name="ProjectId" id="1jDtFNW20cmQX60LCyIXwvWtEUG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.dft2D">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="assignment2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dft2D" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="assignment2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dft2D.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dft2D1" type="PythonConfigurationType" factoryName="Python">
+      <module name="assignment2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="sftp://ubuntu@81.70.86.111:22/usr/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dft2D.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.dft2D1" />
+      <item itemvalue="Python.dft2D" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+    <option name="myConnectionType" value="SSH_CONFIG" />
+    <option name="myConnectionId" value="ubuntu@81.70.86.111:22 password" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dbb87952-1c5f-4ec3-afc0-9faffe5bea80" name="Default Changelist" comment="" />
+      <created>1603350387537</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603350387537</updated>
+      <workItem from="1603350389265" duration="3330000" />
+      <workItem from="1603605339700" duration="11455000" />
+      <workItem from="1603637841034" duration="2123000" />
+      <workItem from="1603730086125" duration="680000" />
+      <workItem from="1603730869027" duration="683000" />
+      <workItem from="1603732133800" duration="208000" />
+      <workItem from="1603732356351" duration="689000" />
+      <workItem from="1603774708410" duration="9057000" />
+      <workItem from="1603788024238" duration="6903000" />
+      <workItem from="1603804868862" duration="64000" />
+      <workItem from="1603804950428" duration="3418000" />
+      <workItem from="1603810683032" duration="699000" />
+      <workItem from="1603811669732" duration="145000" />
+    </task>
+    <task id="LOCAL-00001" summary="finish 3 questions">
+      <created>1603732401855</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603732401855</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="finish 3 questions" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish 3 questions" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="455" y="91" key="#Deployment" timestamp="1603811318128">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="455" y="91" key="#Deployment/0.0.2048.1112@0.0.2048.1112" timestamp="1603811318128" />
+    <state x="320" y="89" key="#Deployment/0.23.1440.808@0.23.1440.808" timestamp="1603774877466" />
+    <state x="184" y="85" width="1071" height="723" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603804081617">
+      <screen x="0" y="23" width="1440" height="804" />
+    </state>
+    <state x="184" y="85" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.801@0.23.1440.801" timestamp="1603800733576" />
+    <state x="184" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.804@0.23.1440.804" timestamp="1603804081617" />
+    <state x="184" y="86" width="1071" height="723" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.806@0.23.1440.806" timestamp="1603778998604" />
+    <state x="184" y="86" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.808@0.23.1440.808" timestamp="1603774915513" />
+    <state x="458" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603635586989">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state x="458" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.806@0.23.1440.806" timestamp="1603635586989" />
+    <state x="502" y="221" key="#com.intellij.tools.ToolEditorDialog" timestamp="1603775069127">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state x="502" y="221" key="#com.intellij.tools.ToolEditorDialog/0.23.1440.806@0.23.1440.806" timestamp="1603775069127" />
+    <state x="502" y="221" key="#com.intellij.tools.ToolEditorDialog/0.23.1440.808@0.23.1440.808" timestamp="1603774781584" />
+    <state x="405" y="126" key="CommitChangelistDialog2" timestamp="1603732401224">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="405" y="126" key="CommitChangelistDialog2/0.0.2048.1112@0.0.2048.1112" timestamp="1603732401224" />
+    <state x="566" y="248" key="FileChooserDialogImpl" timestamp="1603779015605">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state x="805" y="311" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1603638882642" />
+    <state x="566" y="248" key="FileChooserDialogImpl/0.23.1440.806@0.23.1440.806" timestamp="1603779015605" />
+    <state width="1398" height="202" key="GridCell.Tab.0.bottom" timestamp="1603814801352">
+      <screen x="0" y="23" width="1440" height="804" />
+    </state>
+    <state width="1398" height="201" key="GridCell.Tab.0.bottom/0.23.1440.801@0.23.1440.801" timestamp="1603353491069" />
+    <state width="1398" height="202" key="GridCell.Tab.0.bottom/0.23.1440.804@0.23.1440.804" timestamp="1603814801352" />
+    <state width="1398" height="281" key="GridCell.Tab.0.bottom/0.23.1440.806@0.23.1440.806" timestamp="1603722898135" />
+    <state width="1398" height="258" key="GridCell.Tab.0.bottom/0.23.1440.808@0.23.1440.808" timestamp="1603722188762" />
+    <state width="1398" height="202" key="GridCell.Tab.0.center" timestamp="1603814801351">
+      <screen x="0" y="23" width="1440" height="804" />
+    </state>
+    <state width="1398" height="201" key="GridCell.Tab.0.center/0.23.1440.801@0.23.1440.801" timestamp="1603353491068" />
+    <state width="1398" height="202" key="GridCell.Tab.0.center/0.23.1440.804@0.23.1440.804" timestamp="1603814801351" />
+    <state width="1398" height="281" key="GridCell.Tab.0.center/0.23.1440.806@0.23.1440.806" timestamp="1603722898134" />
+    <state width="1398" height="258" key="GridCell.Tab.0.center/0.23.1440.808@0.23.1440.808" timestamp="1603722188761" />
+    <state width="1398" height="202" key="GridCell.Tab.0.left" timestamp="1603814801351">
+      <screen x="0" y="23" width="1440" height="804" />
+    </state>
+    <state width="1398" height="201" key="GridCell.Tab.0.left/0.23.1440.801@0.23.1440.801" timestamp="1603353491067" />
+    <state width="1398" height="202" key="GridCell.Tab.0.left/0.23.1440.804@0.23.1440.804" timestamp="1603814801351" />
+    <state width="1398" height="281" key="GridCell.Tab.0.left/0.23.1440.806@0.23.1440.806" timestamp="1603722898133" />
+    <state width="1398" height="258" key="GridCell.Tab.0.left/0.23.1440.808@0.23.1440.808" timestamp="1603722188760" />
+    <state width="1398" height="202" key="GridCell.Tab.0.right" timestamp="1603814801352">
+      <screen x="0" y="23" width="1440" height="804" />
+    </state>
+    <state width="1398" height="201" key="GridCell.Tab.0.right/0.23.1440.801@0.23.1440.801" timestamp="1603353491068" />
+    <state width="1398" height="202" key="GridCell.Tab.0.right/0.23.1440.804@0.23.1440.804" timestamp="1603814801352" />
+    <state width="1398" height="281" key="GridCell.Tab.0.right/0.23.1440.806@0.23.1440.806" timestamp="1603722898135" />
+    <state width="1398" height="258" key="GridCell.Tab.0.right/0.23.1440.808@0.23.1440.808" timestamp="1603722188761" />
+    <state width="1398" height="281" key="GridCell.Tab.1.bottom" timestamp="1603722898138">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state width="1398" height="281" key="GridCell.Tab.1.bottom/0.23.1440.806@0.23.1440.806" timestamp="1603722898138" />
+    <state width="1398" height="281" key="GridCell.Tab.1.bottom/0.23.1440.808@0.23.1440.808" timestamp="1603718946268" />
+    <state width="1398" height="281" key="GridCell.Tab.1.center" timestamp="1603722898137">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state width="1398" height="281" key="GridCell.Tab.1.center/0.23.1440.806@0.23.1440.806" timestamp="1603722898137" />
+    <state width="1398" height="281" key="GridCell.Tab.1.center/0.23.1440.808@0.23.1440.808" timestamp="1603718946267" />
+    <state width="1398" height="281" key="GridCell.Tab.1.left" timestamp="1603722898136">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state width="1398" height="281" key="GridCell.Tab.1.left/0.23.1440.806@0.23.1440.806" timestamp="1603722898136" />
+    <state width="1398" height="281" key="GridCell.Tab.1.left/0.23.1440.808@0.23.1440.808" timestamp="1603718946266" />
+    <state width="1398" height="281" key="GridCell.Tab.1.right" timestamp="1603722898137">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state width="1398" height="281" key="GridCell.Tab.1.right/0.23.1440.806@0.23.1440.806" timestamp="1603722898137" />
+    <state width="1398" height="281" key="GridCell.Tab.1.right/0.23.1440.808@0.23.1440.808" timestamp="1603718946268" />
+    <state x="543" y="216" width="1078" height="722" key="SettingsEditor" timestamp="1603811815105">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="543" y="216" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1603811815105" />
+    <state x="159" y="56" width="1078" height="722" key="SettingsEditor/0.23.1440.801@0.23.1440.801" timestamp="1603802144669" />
+    <state x="0" y="23" key="SettingsEditor/0.23.1440.804@0.23.1440.804" timestamp="1603804917829" />
+    <state x="159" y="56" width="900" height="722" key="SettingsEditor/0.23.1440.806@0.23.1440.806" timestamp="1603783875203" />
+    <state x="159" y="56" width="900" height="722" key="SettingsEditor/0.23.1440.808@0.23.1440.808" timestamp="1603785179044" />
+    <state x="617" y="325" key="Vcs.Push.Dialog.v2" timestamp="1603732953942">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="617" y="325" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1603732953942" />
+    <state x="464" y="278" key="cloudConfig.PluginsDialog" timestamp="1603804928510">
+      <screen x="0" y="23" width="1440" height="804" />
+    </state>
+    <state x="464" y="278" key="cloudConfig.PluginsDialog/0.23.1440.804@0.23.1440.804" timestamp="1603804928510" />
+    <state x="590" y="275" width="430" height="297" key="cloudConfig.SelfSettingsDialog" timestamp="1603786058936">
+      <screen x="0" y="23" width="1440" height="801" />
+    </state>
+    <state x="590" y="275" width="430" height="297" key="cloudConfig.SelfSettingsDialog/0.23.1440.801@0.23.1440.801" timestamp="1603786058936" />
+    <state x="828" y="506" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603732939746">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="828" y="506" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2048.1112@0.0.2048.1112" timestamp="1603732939746" />
+    <state x="541" y="315" key="com.jetbrains.plugins.remotesdk.ui.RemoteMappingsConfiguration" timestamp="1603804128135">
+      <screen x="0" y="23" width="1440" height="804" />
+    </state>
+    <state x="541" y="315" key="com.jetbrains.plugins.remotesdk.ui.RemoteMappingsConfiguration/0.23.1440.804@0.23.1440.804" timestamp="1603804128134" />
+    <state x="541" y="316" key="com.jetbrains.plugins.remotesdk.ui.RemoteMappingsConfiguration/0.23.1440.806@0.23.1440.806" timestamp="1603780184688" />
+    <state x="206" y="102" width="540" height="685" key="ftp.server.browser" timestamp="1603804126554">
+      <screen x="0" y="23" width="1440" height="804" />
+    </state>
+    <state x="206" y="102" width="540" height="685" key="ftp.server.browser/0.23.1440.804@0.23.1440.804" timestamp="1603804126554" />
+    <state x="385" y="151" width="670" height="676" key="search.everywhere.popup" timestamp="1603806752387">
+      <screen x="0" y="23" width="1440" height="804" />
+    </state>
+    <state x="385" y="151" width="670" height="676" key="search.everywhere.popup/0.23.1440.804@0.23.1440.804" timestamp="1603806752387" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/imageProcessingAssignment_2$dft2D1.coverage" NAME="dft2D1 Coverage Results" MODIFIED="1603804133501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/assignment2$dft2D.coverage" NAME="dft2D Coverage Results" MODIFIED="1603722769051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/imageProcessingAssignment_2$dft2D.coverage" NAME="dft2D Coverage Results" MODIFIED="1603808104587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
