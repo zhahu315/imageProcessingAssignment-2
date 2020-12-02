@@ -67,6 +67,7 @@ def diff(f, g):
 	Z = d[x][y]
 	X, Y = np.meshgrid(x, y)
 	ax.plot_surface(X, Y, Z, cmap='rainbow')
+	plt.savefig('diff3D.png')
 	plt.show()
 
 	return d

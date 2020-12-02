@@ -41,6 +41,19 @@ def dft2D(f):
 	return gray
 
 
+def filter(f):
+	row_mid = f.shape[0] // 2
+	column_mid = f.shape[1] // 2
+	for i in range(f.shape[0]):
+		for j in range(f.shape[1]):
+			if math.sqrt((i - row_mid) ^ 2 + (j - column_mid) ^ 2) < 100:
+				f[i][j] = 0
+			elif 400 < math.sqrt((i - row_mid) ^ 2 + (j - column_mid) ^ 2) < 512:
+				f[i][j] = 0
+
+	return f
+
+
 def idft2D(f):
 	gray = np.array(f, complex)
 
@@ -54,42 +67,11 @@ def idft2D(f):
 	return gray
 
 
-def diff(f, g):
-	# print('f=', f)
-	# print('g=', g)
-	d = np.abs(f - g)
-	print('diff= ', d.shape, d.dtype, d)
-
-	fig = plt.figure()
-	ax = fig.add_subplot(111, projection='3d')
-	x = range(d.shape[0])
-	y = range(d.shape[1])
-	Z = d[x][y]
-	X, Y = np.meshgrid(x, y)
-	ax.plot_surface(X, Y, Z, cmap='rainbow')
-	plt.savefig('diff3D.png')
-	plt.show()
-
-	return d
-
 
 if __name__ == '__main__':
-	f = 'rose512.tif'
-	f = cv2.imread(f, cv2.IMREAD_GRAYSCALE)
-	f = np.array(f, dtype=float)
-	f = normalize(f)
-	f = f.astype(np.float32)
-	cv2.imwrite('rose_normalize.tiff', f)
-	g = np.abs(idft2D(dft2D(f)))
-	# print('g=', g.dtype, g)
-	d = diff(f, g)
-
-	g = g.astype(np.float32)
-	cv2.imshow('g', normalize(g))
-	cv2.imwrite('rose_dft.tiff', g)
-
-	d = d.astype(np.float32)
-	cv2.imshow('d', normalize(d))
-	cv2.imwrite('diff.tiff', d)
-
+	f = cv2.imread('rose512.tif', cv2.IMREAD_GRAYSCALE)
+	f = np.fft.fftshift(f)
+	print(f)
+	f = np.fft.ifftshift(filter(f)))
+	cv2.imshow('filter', f)
 	cv2.waitKey(0)
